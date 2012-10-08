@@ -1,0 +1,140 @@
+
+@CHARSET "UTF-8";
+
+body{
+	font: normal 100% Helvetica, Arial, sans-serif;
+	background-color:#4F4F4F;
+	color: #000;
+	font-size: 12px;	
+	
+}
+
+img{
+	width:100%;
+}
+
+
+
+.page{
+	margin: 0 auto;
+	max-width: 83em;
+	background-image: url("../img/strona_tlo.jpg");
+	background-position: center;
+	background-repeat: repeat-y;
+	
+}
+
+.banner{
+	width:100%;
+	background-image: url("../img/banner_tlo.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	min-height:30px;
+	height:130px;
+}
+
+.bannerText{
+	margin-left: 0.5em;
+	padding-top: 3em;
+	font-size: 2em;
+}
+
+.menu{
+	width:100%;
+	font-size:1.25em;
+	background-image:url("../img/menu_tlo.png");
+	background-position:center;
+	background-repeat: repeat-y;
+}
+a{
+	margin: auto 0.5em;
+	text-decoration: none;
+	color: #000;
+}
+a:VISITED{
+
+	text-decoration: none;
+	color: #000;
+}
+a:HOVER{
+	color: #555;
+	text-decoration: underline;
+}
+
+
+.middle{
+	clear:both;
+	min-height:350px;
+	min-width:25em;
+	max-width: 83em;
+	padding: 1em 1em;
+	background-image: url("../img/tloPage.png");
+	background-position: center;
+	background-repeat: repeat-y;
+	}
+
+.content{	
+	padding:1em 1em;
+	min-height:20em;
+	float:left;
+	width:70%;
+	border:1px solid;
+	border-radius:20px;
+	-moz-border-radius:20px;
+	background-image: url("../img/content2.png");
+	background-position: left;
+	background-repeat: repeat-y;
+	}	
+.contentHeader{
+	
+	font-size: 1.5em;
+	font-family: Georgia,serif;
+}
+.rightBox{
+	float:right;
+	margin-right
+	border:1px solid;
+	-moz-border-radius:30px;
+	border-radius:30px;
+	min-height:10em;
+	width:20%;
+	background-image: url("../img/rb2.png");
+	background-repeat: repeat;
+	background-position: center;
+}
+.rightBoxheader{
+	text-align: left;
+	width:100%;
+	background-image: url("../img/rb1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+.rightBoxTitle{
+	font-size: 1.2em;
+	margin: 0 0 0 10px;
+	text-decoration: underline;
+}
+
+
+.footer{
+	clear:both;
+	height:100px;
+	width:100%;
+	background-image:url("../img/stopka_tlo.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+
+.footerText{
+	text-align:center;
+	margin: 0 auto;
+	font-size: 0.9em;
+	height:6em;
+	line-height: 4em;
+	vertical-align: middle;
+	font-weight: normal;
+	color:#111;
+	}

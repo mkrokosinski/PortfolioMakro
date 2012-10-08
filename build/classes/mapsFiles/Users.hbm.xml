@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2012-10-01 00:09:20 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="mapsFiles.Users" table="users">
+        <id name="id" type="java.lang.Integer">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="password" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+        <property name="isActive" type="boolean" access="field">
+            <column name="ISACTIVE" />
+        </property>
+        <property name="isAdmin" type="boolean" access="field">
+            <column name="ISADMIN" />
+        </property>
+        <property name="registrationDate" type="timestamp">
+            <column name="REGISTRATIONDATE" />
+        </property>
+
+    </class>
+</hibernate-mapping>

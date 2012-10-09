@@ -3,7 +3,7 @@
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <!-- Generated 2012-10-10 00:41:09 by Hibernate Tools 3.4.0.CR1 -->
 <hibernate-mapping>
-    <class name="mapsFiles.News" table="NEWS">
+    <class name="mapsFiles.Boxes" table="boxes">
         <id name="id" type="java.lang.Integer">
             <column name="ID" />
             <generator class="assigned" />
@@ -11,14 +11,14 @@
         <property name="title" type="java.lang.String">
             <column name="TITLE" />
         </property>
-        <property name="content" type="java.lang.String">
-            <column name="CONTENT" />
+        <property name="description" type="java.lang.String">
+            <column name="DESCRIPTION" />
         </property>
-        <property name="authorId" type="java.lang.Integer">
-            <column name="AUTHORID" />
+        <property name="link" type="java.lang.String">
+            <column name="LINK" />
         </property>
-        <property name="postDate" type="java.lang.String">
-            <column name="POSTDATE" />
+        <property name="createTime" type="java.lang.String">
+            <column name="CREATETIME" />
         </property>
     </class>
 </hibernate-mapping>

@@ -3,22 +3,19 @@
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <!-- Generated 2012-10-10 00:41:09 by Hibernate Tools 3.4.0.CR1 -->
 <hibernate-mapping>
-    <class name="mapsFiles.News" table="NEWS">
+    <class name="mapsFiles.ProjectImg" table="projectImg">
         <id name="id" type="java.lang.Integer">
             <column name="ID" />
             <generator class="assigned" />
         </id>
-        <property name="title" type="java.lang.String">
-            <column name="TITLE" />
+        <property name="imgName" type="java.lang.String">
+            <column name="IMGNAME" />
         </property>
-        <property name="content" type="java.lang.String">
-            <column name="CONTENT" />
+        <property name="imgPath" type="java.lang.String">
+            <column name="IMGPATH" />
         </property>
-        <property name="authorId" type="java.lang.Integer">
-            <column name="AUTHORID" />
-        </property>
-        <property name="postDate" type="java.lang.String">
-            <column name="POSTDATE" />
+        <property name="projectId" type="java.lang.Integer">
+            <column name="PROJECTID" />
         </property>
     </class>
 </hibernate-mapping>

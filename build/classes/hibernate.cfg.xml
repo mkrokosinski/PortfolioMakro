@@ -16,5 +16,8 @@
     <mapping resource="mapsFiles/Menu.hbm.xml" />
     <mapping resource="mapsFiles/Users.hbm.xml" />
     <mapping resource="mapsFiles/News.hbm.xml" />
+    <mapping resource="mapsFiles/Boxes.hbm.xml" />
+    <mapping resource="mapsFiles/Projects.hbm.xml" />
+    <mapping resource="mapsFiles/ProjectsImg.hbm.xml" />
   </session-factory>
 </hibernate-configuration>

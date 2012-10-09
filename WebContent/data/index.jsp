@@ -30,14 +30,14 @@
 					nawet Internet nie jest tak bezpiecznym miejscem jak kiedyś. Różne
 					serwisy zostają zamknięte z powodu praw autorskich, a ostatnio
 					nawet z powodów politycznych.Ja zaryzykowałem i stworzyłem własnego
-					blgoa, dlatego też zapraszam do sprawdzenia moich wpisów.</p>
+					bloga, dlatego też zapraszam do sprawdzenia moich wpisów.</p>
 				<p>
 					<a class="btn" href="../data/blog.jsp">Przejdź do bloga</a>
 				</p>
 			</div>
 			<div class="span6">
 				<h2>Kontakt</h2>
-				<p>Jeśli jesteście Państwo chociażby w najmniejszy sposób
+				<p>Jeśli jesteście Państwo chociażby w najmniejszy sposób 
 					zainteresowani współpracą ze mną, lub też zainteresowały Państwa
 					moje projekty to zachęcam do kontaktu ze mną, korzystając z
 					formularza dostępnego na stronie.</p>

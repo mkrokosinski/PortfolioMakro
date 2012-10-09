@@ -1,0 +1,13 @@
+/* 
+Custom CSS file by Marek Krokosiński
+*/
+
+@import url(bootstrap.css);
+
+.row{
+padding: 20px 0;
+}
+
+footer{
+	padding: 20px 0;
+}
